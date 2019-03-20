@@ -1,0 +1,34 @@
+#include<stdio.h>
+main()
+{
+	int x,y;
+	int a,b,c,d,e,f;
+	scanf("%d",&a);
+	scanf("%d",&b);
+	scanf("%d",&c);
+	scanf("%d",&d);
+	scanf("%d",&e);
+	scanf("%d",&f);
+	//12-2
+	//11-3
+	//22-4
+	//21-1
+	if((b==2)&&(d==1))
+	{
+	x=a*10;
+	y=c*10;}
+	if((b==1)&&(d==2))
+	{
+	x=a*10*-1;
+	y=c*10;}
+	if((b==1)&&(d==1))
+	{
+	x=a*10*-1;
+	y=c*10*-1;}
+	if((b==2)&&(d==2))
+	{
+	x=a*10;
+	y=c*10*-1;}
+	printf("%d\n",x);
+	printf("%d\n",y);
+ }
